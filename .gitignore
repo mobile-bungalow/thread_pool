@@ -1,2 +1,3 @@
 /build*
 compilation_database.json
+.vscode/*
