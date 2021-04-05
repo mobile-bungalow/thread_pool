@@ -1,5 +1,4 @@
 #include "../include/bungle_pool.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 void* handle_jobs(void* input)

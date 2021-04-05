@@ -24,6 +24,7 @@ int main()
     b_pool_push_task(pool, (void*)i, &modify_index);
   }
 
+  // this blocks until the tasks finish.
   b_pool_free(pool);
 
   for (long i = 0; i < THREAD_CT * THREAD_CT; i++) {
